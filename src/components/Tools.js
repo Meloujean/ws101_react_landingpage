@@ -7,7 +7,7 @@ function Tools() {
       <div className="tools-container">
         <article className="course">
           <div className="course__image">
-            <img src="/image.png" alt="CSS" />
+            <img src= {process.env.PUBLIC_URL + '/image.png'} alt="CSS" />
           </div>
           <div className="course__info">
             <h4>Cascading Style Sheets</h4>
@@ -18,7 +18,7 @@ function Tools() {
         </article>
         <article className="course">
           <div className="course__image">
-            <img src="/image copy 3.png" alt="HTML" />
+            <img src= {process.env.PUBLIC_URL + '/image copy 3.png'} alt="HTML" />
           </div>
           <div className="course__info">
             <h4>HyperText Markup Language</h4>
@@ -30,7 +30,7 @@ function Tools() {
         </article>
         <article className="course">
           <div className="course__image">
-            <img src="/image copy 2.png" alt="JavaScript" />
+            <img src= {process.env.PUBLIC_URL + '/image copy 2.png'} alt="JavaScript" />
           </div>
           <div className="course__info">
             <h4>JavaScript</h4>

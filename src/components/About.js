@@ -4,7 +4,7 @@ function About() {
   return (
     <section className="about" id="about">
       <div className="about-img">
-        <img src="/3.png" alt="About Web Development" />
+        <img src={process.env.PUBLIC_URL + '/3.png'} alt="About Web Development" />
       </div>
       <div className="about-content">
         <h1 className="heading">Why<span> Web Development</span> Matters</h1>
